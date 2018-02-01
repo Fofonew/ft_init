@@ -17,4 +17,4 @@ s'il trouve des différences, il enverra un mail à l'utilisateur root.
 Donc s'exécuter chaque jour à minuit pour vérifier le hash de la crontab
 fichier
 
-0 0    0 * 0-6   root    sh /root/crontab_check.sh
+0 0    * * *   root    sh /root/crontab_check.sh
